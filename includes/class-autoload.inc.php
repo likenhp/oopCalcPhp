@@ -11,5 +11,5 @@ function autoLoad ($className) {
     }
 
     $ext = '.class.php';
-    require_once $path . $className . $ext
+    require_once $path . $className . $ext;
 }
