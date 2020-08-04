@@ -11,8 +11,8 @@ class Calc {
     $this->num2 = $num2;
   }
 
-  public function calculator($op) {
-    switch ($op) {
+  public function calculator() {
+    switch ($this->operator) {
       case 'add':
         return $result = $this->num1 + $this->num2;
         break;
